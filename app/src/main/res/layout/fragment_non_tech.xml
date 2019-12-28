@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/darktwo">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:id="@+id/layout"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/dextrous"
+                style="@style/EventCardStyle"
+                app:cardCornerRadius="10dp"
+                app:strokeColor="@color/colorDarkBlue4"
+                app:strokeWidth="3dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/idextrous"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/ev_dextrous" />
+
+                    <TextView
+                        android:id="@+id/textdextrous"
+                        style="@style/CardFont"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
+                        android:text="Dextrous"
+                        android:textAlignment="center" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cerebro"
+                style="@style/EventCardStyle"
+                app:cardCornerRadius="10dp"
+                app:strokeColor="@color/colorDarkBlue4"
+                app:strokeWidth="3dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/icerebro"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/ev_cerebro" />
+
+                    <TextView
+                        android:id="@+id/textcerebro"
+                        style="@style/CardFont"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
+                        android:text="Cerebro"
+                        android:textAlignment="center" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/fandom"
+                style="@style/EventCardStyle"
+                app:cardCornerRadius="10dp"
+                app:strokeColor="@color/colorDarkBlue4"
+                app:strokeWidth="3dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/ifandom"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/ev_fandomquiz" />
+
+                    <TextView
+                        android:id="@+id/textfandom"
+                        style="@style/CardFont"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
+                        android:text="Fandom Quiz"
+                        android:textAlignment="center" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/psroyale"
+                style="@style/EventCardStyle"
+                app:cardCornerRadius="10dp"
+                app:strokeColor="@color/colorDarkBlue4"
+                app:strokeWidth="3dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/ipsroyale"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:scaleX="1.5"
+                        android:scaleY="1.5"
+                        android:src="@drawable/ev_psroyale" />
+
+                    <TextView
+                        android:id="@+id/textpsroyale"
+                        style="@style/CardFont"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
+                        android:text="Photoshop Royale"
+                        android:textAlignment="center" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/quiztobid"
+                style="@style/EventCardStyle"
+                app:cardCornerRadius="10dp"
+                app:strokeColor="@color/colorDarkBlue4"
+                app:strokeWidth="3dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iquiztobid"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/ev_quiz_to_bid" />
+
+                    <TextView
+                        android:id="@+id/textquiztobid"
+                        style="@style/CardFont"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
+                        android:text="Quiz to Bid"
+                        android:textAlignment="center" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/insight"
+                style="@style/EventCardStyle"
+                app:cardCornerRadius="10dp"
+                app:strokeColor="@color/colorDarkBlue4"
+                app:strokeWidth="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iinsight"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/ev_insight" />
+
+                    <TextView
+                        android:id="@+id/textinsight"
+                        style="@style/CardFont"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
+                        android:text="Insight"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

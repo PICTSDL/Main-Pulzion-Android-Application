@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorBackground"
+    android:paddingTop="40dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:nestedScrollingEnabled="true"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:background="@drawable/darktwo"
+        tools:context=".AboutUs">
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="20dp"
+            app:strokeColor="@color/colorDarkBlue4"
+            app:strokeWidth="6dp">
+
+            <ImageView
+                android:id="@+id/eventImage"
+                android:layout_width="match_parent"
+                android:layout_height="220sp"
+                android:backgroundTint="@color/zxing_transparent"
+                android:paddingTop="10sp"
+                android:src="@drawable/pasclogo"
+                android:transitionName="transitionAnim" />
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="24dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/eventDetails"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:paddingTop="10dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp"
+            android:paddingBottom="30dp" />
+    </LinearLayout>
+</ScrollView>

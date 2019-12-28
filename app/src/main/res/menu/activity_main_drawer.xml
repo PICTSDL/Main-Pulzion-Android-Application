@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single"/>
+    <item
+        android:id="@+id/Home"
+        android:icon="@drawable/house"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_register"
+        android:icon="@drawable/ic_reg"
+        android:title="Register" />
+        <item
+            android:id="@+id/nav_receipts"
+            android:icon="@drawable/ic_receipt"
+            android:title="@string/menu_receipts"
+            />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_event"
+            android:title="@string/menu_events" />
+    <item
+        android:id="@+id/workshops"
+        android:icon="@drawable/ic_workshop"
+        android:title="Workshops" />
+
+    <item
+            android:id="@+id/nav_sponsors"
+        android:icon="@drawable/ic_sponsor"
+            android:title="@string/menu_sponsors" />
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/ic_aboutus"
+            android:title="@string/menu_aboutus" />
+</menu>

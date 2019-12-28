@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">100193450230-kr67bpikb31rhqlh9osv4i73i4rhf16h.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://pascregistrationappdemo.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">100193450230</string>
+    <string name="google_api_key" translatable="false">AIzaSyBsvDd_1gTjQzsVTYxgZ6QqAQYUrjTskEg</string>
+    <string name="google_app_id" translatable="false">1:100193450230:android:ba058e43deae7d12</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBsvDd_1gTjQzsVTYxgZ6QqAQYUrjTskEg</string>
+    <string name="google_storage_bucket" translatable="false">pascregistrationappdemo.appspot.com</string>
+    <string name="project_id" translatable="false">pascregistrationappdemo</string>
+</resources>

@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Pulzion\'19</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_receipts">My Receipts</string>
+    <string name="menu_events">Events</string>
+    <string name="menu_sponsors">Sponsors</string>
+    <string name="menu_aboutus">About Us</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_receipts">Receipts</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="title_activity_events">Events</string>
+    <string name="title_activity_sponsors">Sponsors</string>
+    <string name="title_activity_about_us">AboutUs</string>
+    <string name="bug_report">bug_report</string>
+
+    <string name="techevents"><b><u>Technical Events</u></b></string>
+    <string name="nontechevents"><b><u>Non-Technical Events</u></b></string>
+    <string name="workshops"><b><u>WORKSHOPS</u></b></string>
+
+    <string-array name="year">
+        <item>FE</item>
+        <item>SE</item>
+        <item>TE</item>
+        <item>BE</item>
+    </string-array>
+    <string-array name="bugOff">
+        <!--<item>None</item>-->
+        <item>Individual   - Rs.80</item>
+        <item>Team         - Rs.100</item>
+    </string-array>
+    <string-array name="justCoding">
+        <item>None</item>
+        <item>Individual   - Rs.80</item>
+        <item>Team         - Rs.100</item>
+    </string-array>
+    <string-array name="recodeIt">
+        <item>None</item>
+        <item>Individual   - Rs.80</item>
+        <item>Team         - Rs.100</item>
+    </string-array>
+    <string-array name="cerebro">
+        <item>None</item>
+        <item>Individual   - Rs.80</item>
+        <item>Team         - Rs.100</item>
+    </string-array>
+
+    <string name="dev_contact1">+91 7015032436</string>
+    <string name="dev_contact2">+91 7507457622</string>
+    <string name="dev_contact3">+91 7066510224</string>
+    <string name="donotreply"><b>This is a system generated email, hence, please do not reply to this mail.</b></string>
+    <string name="am">Amount: Rs. </string>
+    <string name="title_activity_workshop_registration">WorkshopRegistrationActivity</string>
+    <string name="register1">REGISTRATION FORM</string>
+    <string name="workshop"><u><b>Workshops</b></u></string>
+
+    <string name="events">Events:</string>
+    <string name="devmail1"><u>maddiwartanush@gmail.com</u></string>
+    <string name="devmail2"><u>gauravdesh26@gmail.com</u></string>
+    <string name="devmail3"><u>patilgpratik@gmail.com</u></string>
+    <string name="th"><sup><small>th</small></sup></string>
+    <string name="rd"><sup><small>rd</small></sup></string>
+
+
+</resources>

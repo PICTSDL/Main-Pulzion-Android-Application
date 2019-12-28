@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/darktwo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        tools:context=".EventDetails">
+
+        <ImageView
+            android:id="@+id/eventImage"
+            android:layout_width="match_parent"
+            android:layout_height="220sp"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/zxing_transparent"
+            android:paddingTop="60sp"
+            android:transitionName="transitionAnim" />
+
+            <TextView
+                android:id="@+id/eventName"
+                style="@style/PulzionFont"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/zxing_transparent"
+                android:paddingTop="15sp"
+                android:text="Event Name"
+                android:selectAllOnFocus="false"
+                android:textColor="@color/white"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView1"
+                style="@style/PulzionFont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="10sp"
+                android:text="TextView"
+                android:textColor="@color/colorCyan2"
+                android:textSize="18sp" />
+            <TextView
+                android:paddingTop="10sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/eventDescription"
+                android:textColor="@color/colorWhite"
+                android:text="TextView"
+                android:layout_marginLeft="16dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PulzionFont"
+                android:text="Rules and Regulations"
+                android:textSize="26sp"
+                android:layout_marginTop="32dp"
+                android:textColor="@color/colorCyan"/>
+            <TextView
+                android:paddingTop="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView3"
+                android:id="@+id/rules"
+                android:textSize="16sp"
+                android:layout_marginLeft="16dp"
+                android:textColor="@color/colorWhite"/>
+
+            <TextView
+                style="@style/PulzionFont"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorCyan"
+                android:text="Team Distribution"
+                android:layout_marginTop="16dp"
+                android:textSize="26sp"
+                />
+
+            <TextView
+                android:paddingTop="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView4"
+                android:textSize="16sp"
+                android:id="@+id/team_distribution"
+                android:layout_marginLeft="16dp"
+                android:textColor="@color/colorWhite"/>
+
+            <TextView
+                style="@style/PulzionFont"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorCyan"
+                android:text="Fees"
+                android:textSize="26sp"
+                android:layout_marginTop="16dp"
+                />
+
+            <TextView
+                android:paddingTop="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView5"
+                android:id="@+id/fees"
+                android:textSize="16sp"
+                android:layout_marginLeft="16dp"
+                android:textColor="@color/colorWhite"/>
+
+            <TextView
+                style="@style/PulzionFont"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorCyan"
+                android:text="Contact"
+                android:textSize="26sp"
+                android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/contact1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:clickable="true"
+            android:paddingTop="10sp"
+            android:text="TextView6"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp" />
+
+            <TextView
+                android:clickable="true"
+                android:paddingTop="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView6"
+                android:id="@+id/contact2"
+                android:textSize="16sp"
+                android:layout_marginLeft="16dp"
+                android:textColor="@color/colorWhite"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/RegisterButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="40dp"
+            android:padding="8dp"
+            android:text="Register"
+            app:cornerRadius="10dp" />
+
+        </LinearLayout>
+
+
+
+</ScrollView>

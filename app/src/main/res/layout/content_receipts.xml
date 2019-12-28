@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Receipts"
+    android:background="@drawable/darktwo">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="@dimen/fab_right_margin"
+        android:layout_marginBottom="180dp"
+        android:src="@drawable/ic_manually"
+        android:elevation="6dp"
+        android:id="@+id/fab_manual"
+        app:pressedTranslationZ="12dp"
+        android:backgroundTint="#3F51B5"
+        android:visibility="invisible"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="@dimen/fab_right_margin"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/ic_qr_code"
+        android:elevation="6dp"
+        android:id="@+id/fab_QR"
+        app:pressedTranslationZ="12dp"
+        android:backgroundTint="#2196F3"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/fab_manual_tV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:paddingRight="90dp"
+        android:paddingBottom="195dp"
+        android:text="Add Manually"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="@dimen/fab_right_margin"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/ic_add_circle_outline_black_24dp"
+        android:elevation="6dp"
+        android:id="@+id/fab_plus"
+        app:pressedTranslationZ="12dp"
+        android:backgroundTint="#00BCD4"/>
+
+    <TextView
+        android:id="@+id/fab_QR_tV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:paddingRight="95dp"
+        android:paddingBottom="110dp"
+        android:text="Scan QR"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
